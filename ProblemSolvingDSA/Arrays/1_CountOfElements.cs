@@ -13,6 +13,9 @@
         Return the count of elements.
         */
 
+        /// <summary>
+        /// T.C. = O(A), S.C. = O(1)
+        /// </summary>
         public static int Solve(List<int> A)
         {
             int count = 0;
@@ -32,6 +35,9 @@
             return count;
         }
 
+        /// <summary>
+        /// T.C. = O(A), S.C. = O(1)
+        /// </summary>
         public static int SolveWithOneLoop(List<int> A)
         {
             int maxCount = 1;

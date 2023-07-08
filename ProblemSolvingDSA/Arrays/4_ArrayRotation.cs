@@ -14,6 +14,10 @@
         Output Format
         Return the array A after rotating it B times to the right
         */
+
+        //// <summary>
+        /// T.C. = O(A), S.C. = O(1)
+        /// </summary>
         public static List<int> Solve(List<int> A, int B)
         {
             B = B % A.Count;

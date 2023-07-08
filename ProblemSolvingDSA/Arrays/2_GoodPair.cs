@@ -13,6 +13,10 @@
         Output Format
         Return 1 if good pair exist otherwise return 0.
         */
+
+        /// <summary>
+        /// T.C. = O(A*A), S.C. = O(1)
+        /// </summary>
         public static int Solve(List<int> A, int B)
         {
             for (int i = 0; i < A.Count; i++)
